@@ -1,0 +1,13 @@
+<script src="main.js"></script>
+<template id="record"
+  ><div style="width: 150px">
+    <img
+      width="150px"
+      style="pointer-events: none"
+      onselectstart="return false;"
+      onmousedown="return false;"
+      src="data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%2240%25%22%20height%3D%22auto%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%22-.5%20-.5%20287%20287%22%20%3E%20%3Cdefs%3E%20%3ClinearGradient%20id%3D%22b%22%20x1%3D%220%25%22%20x2%3D%22100%25%22%20y1%3D%220%25%22%20y2%3D%220%25%22%3E%20%3Cstop%20offset%3D%220%25%22%20%2F%3E%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23969696%22%20%2F%3E%20%3C%2FlinearGradient%3E%20%3Cfilter%20id%3D%22a%22%3E%20%3CfeGaussianBlur%20in%3D%22SourceAlpha%22%20result%3D%22blur%22%20stdDeviation%3D%221.7%22%20%2F%3E%20%3CfeOffset%20dx%3D%223%22%20dy%3D%223%22%20in%3D%22blur%22%20result%3D%22offsetBlur%22%20%2F%3E%20%3CfeFlood%20flood-color%3D%22%233D4574%22%20flood-opacity%3D%22.4%22%20result%3D%22offsetColor%22%20%2F%3E%20%3CfeComposite%20in%3D%22offsetColor%22%20in2%3D%22offsetBlur%22%20operator%3D%22in%22%20result%3D%22offsetBlur%22%20%2F%3E%20%3CfeBlend%20in%3D%22SourceGraphic%22%20in2%3D%22offsetBlur%22%20%2F%3E%20%3C%2Ffilter%3E%20%3C%2Fdefs%3E%20%3Cg%20filter%3D%22url(%23a)%22%20pointer-events%3D%22none%22%3E%20%3Ccircle%20cx%3D%22140%22%20cy%3D%22140%22%20r%3D%2280%22%20fill%3D%22%23e3c800%22%20stroke%3D%22%23b09500%22%20%2F%3E%20%3Cpath%20fill%3D%22%231ba1e2%22%20d%3D%22M35%2060h210v80H35z%22%20%2F%3E%20%3Cpath%20fill%3D%22url(%23b)%22%20d%3D%22M0%20140C0%2062.68%2062.68%200%20140%200c37.13%200%2072.74%2014.75%2098.99%2041.01C265.25%2067.26%20280%20102.87%20280%20140c0%2037.13-14.75%2072.74-41.01%2098.99C212.74%20265.25%20177.13%20280%20140%20280c-37.13%200-72.74-14.75-98.99-41.01C14.75%20212.74%200%20177.13%200%20140Zm140-79.91c-44.13%200-79.91%2035.78-79.91%2079.91%200%2044.13%2035.78%2079.91%2079.91%2079.91%2044.13%200%2079.91-35.78%2079.91-79.91%200-44.13-35.78-79.91-79.91-79.91Z%22%20%2F%3E%20%3Ccircle%20cx%3D%22140%22%20cy%3D%22140%22%20r%3D%2225%22%20fill%3D%22%23fff%22%20%2F%3E%20%3C%2Fg%3E%20%3C%2Fsvg%3E"
+    />
+    <p style="text-align: center"><slot>{{label}}</slot></p>
+  </div></template
+>
